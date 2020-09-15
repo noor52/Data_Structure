@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+
+	int num=8;
+	
+	get_sqr(num);
+
+	
+	
+	return 0;
+}
+
+
+
+void get_sqr(int num){
+    printf("Namata of  %d \n",num);
+for (int i=1;i<11;i++){
+    
+  int   result= i*num;
+    
+    	printf("%d \t * \t %d  = %d \n ",i,num, result);
+}
+    
+    
+    
+}
