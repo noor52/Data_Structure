@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int get_sqr(void);
+
+int main() {
+	// your code goes here
+// 	printf("noor");
+	
+	int sqr;
+	sqr =get_sqr();
+	
+	printf("squre %d ",sqr);
+	
+	
+	return 0;
+}
+
+int get_sqr(){
+    
+    int num =8;
+    
+    int sqr_number = num*num;
+    
+    return sqr_number;
+    
+}
